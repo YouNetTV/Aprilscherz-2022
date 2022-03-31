@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Outfit:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&family=Secular+One&display=swap');
+
+@import url("assets/navigator.css");
+
+body {
+    width: 100vw;
+    height: 100vh;
+
+    overflow: hidden;
+
+    margin: 0px;
+
+    font-family: Arial;
+}
+
+a[href] {
+    text-decoration: none;
+    color: #3053c9;
+}
+
+.content {
+    height: 100vh;
+    width: 100%;
+
+    overflow-y: auto;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+}
+
+.release-date-banner {
+    width: 100%;
+    aspect-ratio: 16/2.5;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+
+    background-color: #24242a;
+}
+
+.release-date-banner b {
+    font-size: 20px;
+    color: #bbb;
+}
+
+.release-date-banner b#stream-countdown {
+    font-size: 42px;
+    font-weight: 900;
+    font-family: "Montserrat";
+
+    color: #fff;
+    text-shadow: 0px 0px 22px #ffffff77;
+}
+
+/* ===============
+        About
+   =============== */
+
+.about {
+    margin-top: 34px;
+    width: calc(100% - 60px);
+
+    color: #000000;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.about b.title {
+    font-size: 22px;
+    font-family: "Roboto";
+    font-weight: 800;
+
+    margin-left: -10px;
+}
+
+.about div.info {
+    width: 100%;
+
+    font-family: "Montserrat";
+    font-weight: 500;
+    font-size: 16px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.about div.info div {
+    min-height: 1em;
+}
+
+/* ================
+        Footer
+   ================ */
+
+.footer {
+    width: 100%;
+    height: auto;
+    padding-top: 18px;
+    padding-bottom: 18px;
+
+    margin-top: 100px;
+
+    background-color: #1c1c21;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer .socials {
+    width: 50%;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.footer .socials .social {
+    width: 4em;
+    height: 4em;
+
+    background-color: #1c1c21;
+    border: 1px solid #2a2c31;
+    border-radius: 50%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    cursor: pointer;
+
+    transition: 0.3s;
+}
+
+.footer .socials .social:hover {
+    background-color: #26262e;
+}
+
+.footer .socials .social img {
+    height: 50%;
+}

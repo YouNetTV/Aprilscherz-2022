@@ -3,18 +3,93 @@
 <head>
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>YouNet - Home</title>
-	<style>
-		@import url('https://fonts.googleapis.com/css2?family=Comic+Sans+MS&display=swap');
 
-		* {
-			font-family: "Comic Sans MS";
-		}
-	</style>
+	<link rel="stylesheet" href="/style.css">
+	<link rel="icon" href="assets/img/icon.png">
+	<script src="index.js" type="module"></script>
 </head>
 <body>
-	<h1>Willkommen</h1>
-	<p>Herzlich Willkommen bei YouNet - Ihrem unseriösen und geldgeilem Twitchkanal</p>
+	<!-- Navigator -->
+	<div class="navigator">
+		<div class="nav-content">
+			<div class="nav-logo" onclick="window.location.href = `/`;">
+				<img src="/assets/img/icon.png" class="nav-icon">
+				YouNet
+			</div>
+
+			<div class="nav-premium" onclick="window.location.href = `/premium/`;">
+				<img src="/assets/img/premium.png">
+				YouNet Premium
+			</div>
+		</div>
+	</div>
+
+	<!-- Content -->
+	<div class="content">
+		<div class="release-date-banner">
+			<b>Erster Stream</b>
+			<b id="stream-countdown">00:00:00</b>
+		</div>
+
+		<div class="about">
+			<b class="title">Über uns</b>
+			<div class="info">
+				<div>YouNet ist dein Content Creator Netzwerk und 24/7 Kanal auf Twitch.</div>
+				<div>Wir wollen allen Entertainment rund um die Uhr bieten. Beispielsweise mit Turnieren, Kurzfilmen oder auch eigenen Serien und Live-Events.</div>
+				<div></div>
+				<div><b>Unser FAQ</b></div>
+				<div></div>
+				<div><b>Q: </b>Wie kann ich mich als Creator bewerben?</div>
+				<div><b>A: </b>Bewerben kannst du dich bald unter https://younettv.de/apply/creator</div>
+				<div></div>
+				<div><b>Q: </b>Kann man im Team mithelfen?</div>
+				<div><b>A: </b>Natürlich! Bewerben kannst du dich <a href="https://forms.gle/XydPEcYMrSTMeb4x5">hier</a> . Wir suchen im Moment Developer und Video Editoren</div>
+				<div></div>
+				<div><b>Q: </b>Wann ist der offizielle Release?</div>
+				<div><b>A: </b>Definitiv am 23.08.22</div>
+				<div></div>
+				<div><b>Q: </b>Wie finanziert sich das ganze hier?</div>
+				<div><b>A: </b>Vorerst eigentlich nur durch unser eigenes Geld, später hoffentlich durch Twitch Einnahmen, Spenden und eventuell Sponsorings</div>
+				<div></div>
+				<div><b>Q: </b>Schonmal Surströmming gegessen?</div>
+				<div><b>A: </b>Nein</div>
+				<div></div>
+				<div><b>Q: </b> Ist das hier ein Aprilscherz?</div>
+				<div><b>A: </b> Natürlich nicht :)</div>
+				<div></div>
+				<div><b>Q: </b> Wird Deutschland den ESC 2022 gewinnen?</div>
+				<div><b>A: </b> Natürlich auch nicht :) Danke NDR</div>
+				<div></div>
+				<div><b>Q: </b>Wie kann man dieses Projekt unterstützen</div>
+				<div><b>A: </b>Finanziell aktuell noch nicht, man kann sich jedoch, wie vorher bereits erwähnt, bewerben, um das echte Release Datum hoffentlich noch in dieses Jahrhundert zu kriegen</div>
+				<div></div>
+				
+			</div>
+		</div>
+
+		<div class="footer">
+			<div class="socials">
+				<div class="social" onclick="window.open('https://discord.gg/jbdWrQHArd', '_');">
+					<img src="/assets/img/socials/discord.png" alt="">
+				</div>
+				<div class="social" onclick="window.open('https://twitch.tv/younettv', '_');">
+					<img src="/assets/img/socials/twitch.png" alt="">
+				</div>
+				<div class="social" onclick="window.open('https://twitter.com/YouNetTV_/', '_');">
+					<img src="/assets/img/socials/twitter.png" alt="">
+				</div>
+				<div class="social" onclick="window.open('https://www.instagram.com/younettv_/', '_');">
+					<img src="/assets/img/socials/instagram.png" alt="">
+				</div>
+			</div>
+
+			<div class="links">
+				
+			</div>
+		</div>
+	</div>
 </body>
 </html>

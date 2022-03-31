@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Outfit:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&family=Secular+One&display=swap');
+
+@import url("assets/navigator.css");
+
+body {
+    width: 100vw;
+    height: 100vh;
+
+    overflow: hidden;
+
+    margin: 0px;
+    background-color: #212227;
+
+    font-family: "Montserrat";
+    color: #ffffff;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;  
+    gap: 20px;
+}
+
+b {
+    font-size: 56px;
+    font-weight: 900;
+    color: #e12954;
+}
+
+img {
+    margin-top: 40px;
+    border-radius: 10px;
+}

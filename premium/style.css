@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Outfit:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&family=Secular+One&display=swap');
+
+@import url("/assets/navigator.css");
+
+body {
+    width: 100vw;
+    height: 100vh;
+
+    overflow: hidden;
+
+    margin: 0px;
+
+    font-family: Arial;
+}
+
+.content {
+    height: 100vh;
+    width: 100%;
+
+    overflow-y: auto;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+}
+
+.tiers {
+    width: 70%;
+    height: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tier-list {
+    width: 100%;
+    height: auto;
+
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    gap: 16px;
+}
+
+.tier {
+    width: 100%;
+    min-height: 20px;
+
+    border-radius: 6px;
+
+    background-color: #e4e5eb;
+    box-shadow: 0px 3px 12px #00000033;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    overflow: hidden;
+}
+
+.tier .head {
+    width: 100%;
+    height: 3em;
+
+    background-color: #000000;
+
+    border-radius: 4px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-family: "Montserrat";
+    font-size: 20px;
+    font-weight: 800;
+    color: #ffffff;
+}
+
+.tier.t1 .head {
+    background: rgb(25,26,28);
+    background: linear-gradient(135deg, rgba(25,26,28,1) 0%, rgba(63,62,73,1) 100%); 
+}
+
+.tier.t2 .head {
+    background: rgb(49,93,208);
+    background: linear-gradient(135deg, rgba(49,93,208,1) 0%, rgba(58,116,210,1) 100%); 
+}
+
+.tier.t3 .head {
+    background: rgb(208,136,49);
+    background: linear-gradient(135deg, rgba(208,136,49,1) 0%, rgba(210,184,58,1) 100%); 
+}
+
+.tier .perks {
+    width: 90%;
+
+    margin-top: 26px;
+    margin-bottom: 26px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 18px;
+
+    font-size: 18px;
+    font-family: "Montserrat";
+}
+
+.tier .perks div {
+    width: 100%;
+    text-align: center;
+}
+
+.tier .separator {
+    width: 90%;
+    height: 2px;
+
+    margin-top: 4px;
+    margin-bottom: 4px;
+
+    background-color: #ddd;
+}
+
+.tier .price {
+    width: 90%;
+
+    margin-top: 8px;
+    margin-bottom: 8px;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+}
+
+.tier .price b {
+    width: auto;
+
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Montserrat";
+    color: #000000;
+}
+
+.tier .price button {
+    background: rgb(56,172,57);
+    background: linear-gradient(93deg, rgba(56,172,57,1) 0%, rgba(58,210,107,1) 100%); 
+
+    font-size: 16px;
+    font-weight: 700;
+    font-family: "Montserrat";
+    color: #fff;
+
+    border: none;
+    border-radius: 4px;
+
+    padding: 0.3em 0.8em 0.3em 0.8em;
+
+    cursor: pointer;
+
+    transition: 0.2s;
+    transform: scale(100%);
+}
+
+.tier .price button:active {
+    transform: scale(96%);
+}
