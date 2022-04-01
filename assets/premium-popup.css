@@ -1,0 +1,92 @@
+.premium-popup-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    width: 100vw;
+    height: 100vh;
+
+    z-index: 20;
+
+    background-color: #00000066;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.premium-popup {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+
+    width: 40vw;
+    min-height: 20px;
+
+    padding-bottom: 12px;
+
+    border-radius: 8px;
+    background-color: #ffffff;
+    box-shadow: 0px 4px 16px #333;
+
+    font-family: "Comic Sans MS";
+    font-size: 16px;
+    font-weight: 600;
+
+    text-align: center;
+
+    overflow: hidden;
+}
+
+.premium-popup .head {
+    width: 100%;
+
+    padding: 18px 0px 18px 0px;
+
+    background: rgb(237,142,71);
+    background: linear-gradient(159deg, rgba(237,142,71,1) 0%, rgba(255,171,8,1) 100%); 
+    border-radius: 0px 0px 12px 12px;
+
+    color: #ffffff;
+    font-weight: 900;
+    font-size: 24px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.premium-popup .buttons {
+    width: 80%;
+
+    margin-top: 16px;
+    margin-bottom: 16px;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 8px;
+}
+
+.premium-popup .buttons button {
+    width: 100%;
+
+    border: none;
+    border-radius: 8px;
+
+    background: rgb(95,146,209);
+    background: linear-gradient(339deg, rgba(95,146,209,1) 0%, rgba(58,70,210,1) 100%); 
+
+    cursor: pointer;
+
+    font-family: "Montserrat", Arial;
+    font-size: 16px;
+    font-weight: 800;
+    color: #ffffff;
+
+    padding-top: 0.4em;
+    padding-bottom: 0.4em;
+}

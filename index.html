@@ -20,6 +20,13 @@
 				YouNet
 			</div>
 
+			<div class="nav-targets">
+				<a href="/" class="target selected">Home</a>
+				<a href="/about/" class="target">Über</a>
+				<a href="/about/team/" class="target">Das Team</a>
+				<a href="/about/faq/" class="target">FAQ</a>
+			</div>
+
 			<div class="nav-premium" onclick="window.location.href = `/premium/`;">
 				<img src="/assets/img/premium.png">
 				YouNet Premium
@@ -34,39 +41,35 @@
 			<b id="stream-countdown">00:00:00</b>
 		</div>
 
-		<div class="about">
-			<b class="title">Über uns</b>
-			<div class="info">
-				<div>YouNet ist dein Content Creator Netzwerk und 24/7 Kanal auf Twitch.</div>
-				<div>Wir wollen allen Entertainment rund um die Uhr bieten. Beispielsweise mit Turnieren, Kurzfilmen oder auch eigenen Serien und Live-Events.</div>
-				<div></div>
-				<div><b>Unser FAQ</b></div>
-				<div></div>
-				<div><b>Q: </b>Wie kann ich mich als Creator bewerben?</div>
-				<div><b>A: </b>Bewerben kannst du dich bald unter https://younettv.de/apply/creator</div>
-				<div></div>
-				<div><b>Q: </b>Kann man im Team mithelfen?</div>
-				<div><b>A: </b>Natürlich! Bewerben kannst du dich <a href="https://forms.gle/XydPEcYMrSTMeb4x5">hier</a> . Wir suchen im Moment Developer und Video Editoren</div>
-				<div></div>
-				<div><b>Q: </b>Wann ist der offizielle Release?</div>
-				<div><b>A: </b>Definitiv am 23.08.22</div>
-				<div></div>
-				<div><b>Q: </b>Wie finanziert sich das ganze hier?</div>
-				<div><b>A: </b>Vorerst eigentlich nur durch unser eigenes Geld, später hoffentlich durch Twitch Einnahmen, Spenden und eventuell Sponsorings</div>
-				<div></div>
-				<div><b>Q: </b>Schonmal Surströmming gegessen?</div>
-				<div><b>A: </b>Nein</div>
-				<div></div>
-				<div><b>Q: </b> Ist das hier ein Aprilscherz?</div>
-				<div><b>A: </b> Natürlich nicht :)</div>
-				<div></div>
-				<div><b>Q: </b> Wird Deutschland den ESC 2022 gewinnen?</div>
-				<div><b>A: </b> Natürlich auch nicht :) Danke NDR</div>
-				<div></div>
-				<div><b>Q: </b>Wie kann man dieses Projekt unterstützen</div>
-				<div><b>A: </b>Finanziell aktuell noch nicht, man kann sich jedoch, wie vorher bereits erwähnt, bewerben, um das echte Release Datum hoffentlich noch in dieses Jahrhundert zu kriegen</div>
-				<div></div>
-				
+		<div class="stats">
+			<div class="head">
+				Statistiken
+			</div>
+
+			<div class="stuff">
+				<div class="stat">
+					<img src="/assets/img/stats/followers.png">
+					Followers
+					<b class="value">42</b>
+				</div>
+
+				<div class="stat">
+					<img src="/assets/img/stats/avg-viewers.png">
+					Average Viewers
+					<b class="value">Drölf</b>
+				</div>
+
+				<div class="stat">
+					<img src="/assets/img/stats/stream-time.png">
+					Total Stream Time
+					<b class="value">00:00</b>
+				</div>
+
+				<div class="stat">
+					<img src="/assets/img/stats/streams.png">
+					Streams
+					<b class="value">-1</b>
+				</div>
 			</div>
 		</div>
 
@@ -88,6 +91,21 @@
 
 			<div class="links">
 				
+			</div>
+		</div>
+	</div>
+
+	<div class="premium-popup-container" id="premium-popup" style="display: none;">
+		<div class="premium-popup">
+			<div class="head">
+				YouNet Premium
+			</div>
+
+			Wusstest du, dass du uns mit einem simplen und günstigem Abonnement unterstützen kannst?
+
+			<div class="buttons">
+				<button onclick="window.location.href = '/premium/';">Nicht abonnieren</button>
+				<button onclick="window.location.href = '/premium/';">Abbonieren</button>
 			</div>
 		</div>
 	</div>
